@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<landmark>
+    <id>m01</id>
+    <info>A sample landmark</info>
+    <description>It doesn't exist in the world map tho :v</description>
+    <!--
+        x = x_pos
+        y = y_pos
+        tx = x_offset or x_anchor - x_pos
+        ty = y_offset or y_anchor - y_pos
+        default_image = try default_image: default_image catch: missing
+        hover_image = try default_image: hover_image or default_image catch: missing
+        pressed_image = try default_image: pressed_image or default_image catch: missing
+        ..
+    -->
+    <properties
+        x_pos = "65"
+        y_pos = "55"
+        x_offset = "1"
+        y_offset = "1"
+        x_anchor = "0"
+        y_anchor = "0"
+        default_image = ""
+        hover_image = ""
+        pressed_image = ""
+        hover_sound = ""
+        pressed_sound = ""
+        default_color = ""
+        hover_color = ""
+        pressed_color = ""
+    />
+    <shape>
+        <coord>(0, 0)</coord>
+        <coord>(50, 0)</coord>
+        <coord>(50, 50)</coord>
+        <coord>(0, 50)</coord>
+    </shape>
+</landmark>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<item>
+    <id>it00</id>
+    <name>Dummy Item</name>
+    <group>Accessory</group>
+    <description>Stuff</description>
+    <cooldowngroup>0</cooldowngroup>
+    <cooldown>500</cooldown>
+    <maxstacks>99</maxstacks>
+    <itemtype>ITEM_TYPE_NORMAL</itemtype>
+    <equip>0</equip>
+    <use>1</use>
+    <drop>1</drop>
+    <sell>1</sell>
+    <price>2</price>
+</item>
